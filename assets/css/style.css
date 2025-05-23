@@ -1,0 +1,444 @@
+/** HEADER CSS**/
+div.portfolio-image {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+div.portfolio-image img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #4d30c4;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.skills-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+nav ul li a.active {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+nav ul{
+  padding: 40px 0;
+}
+
+/* .sign-up {
+  color: white;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+} */
+
+.container .header-container {
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.content-name p {
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+.content-title p {
+  font-size: 3rem;
+  margin: 0;
+  color: greenyellow;
+}
+
+.content-course p {
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+.contact-button div.btn-contact {
+  border: 1px solid blue;
+  background-color: white;
+  padding: 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-button div.btn-contact p {
+  margin: 0;
+  color: #4d30c4;
+}
+
+.contact-button .btn-export {
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.contact-button div.btn-export p {
+  margin: 0;
+  color: #ccc;
+}
+
+.content-right {
+  width: 15%;
+  height: 25%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.content-right {
+  width: 20%;
+  position: relative;
+  bottom: 30px;
+  right: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.form-text{
+  text-align: center;
+}
+
+
+
+/* Skills section*/
+
+/* .skills-section{
+  background-color: white;
+}*/
+
+.skills-items .skills-image{
+  width: 150px;
+  height: 150px;
+}
+
+.skills-items .skills-image img{
+  width: 100%;
+}
+
+section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+
+/*************** PROJECT *****************/
+
+.project-items .project-item-image{
+  width: 400px;
+  height: auto;
+}
+.project-items .project-item-image img{
+  width: 100%;
+  height: 100%;
+} 
+
+.project-item-title h2{
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.project-item-text{
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.btn-view{
+  border: 1px solid #4d30c4;
+  width: 119px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+  white-space: nowrap;
+  color: #4d30c4;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ************* FORM **************** */
+/* #form-container, form{
+  background-color: #F8F7FC;
+} */
+
+.form-row input{
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea{
+  margin: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+form{
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.form-row button{
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color:#4d30c4;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* ************footer************** */
+
+.container .footer-image{
+  width: 40px;
+  height: 40px;
+}
+
+.container .footer-image img {
+  width: 100%;
+}
+
+/* footer{
+  background-color: #4d30c4;
+} */
+
+/* https://dribbble.com/shots/24215702-Personal-Portfolio-Website */
+
+@media screen and (min-width: 601px) and (max-width: 1280px) {
+
+   nav ul li a {
+    font-size: 1.5rem;
+  } 
+
+  header {
+    background-color: #4d30c4;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+
+  .project-item-text{
+    font-size: 1.5rem;
+  }
+
+  form{
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  .active{
+    margin-left: 6px;
+  }
+
+  nav ul.unlisted{
+    justify-content: center;
+  }
+
+  nav ul li:nth-child(4){
+    margin-right:20px;
+  }
+
+  header {
+    background-color: #4d30c4;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .skills-items .skills-image{
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills-title h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  .skills-items{
+    justify-content: space-evenly;
+  }
+
+  .skills-title{
+    font-size: 0.7rem;
+  }
+
+  form{
+    width: 90%;
+  }
+
+  form div:nth-child(1){
+    flex-direction: column;
+  }
+
+  .form-text p{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-row button{
+    width: 80%;
+  }
+
+
+  /* header {
+    width: 100%;
+  } */
+
+  /* .sign-up {
+    font-size: 0.9rem;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border: none;
+  } */
+
+  /* div.content-right {
+    border: none;
+  } */
+
+  /* .content-right .profile-image {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  } */
+
+  .content-items .content-item .content-name p {
+    font-size: 1.1rem;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  .content-items .content-item {
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  .content-title p {
+    font-size: 1.3rem;
+    margin: 0;
+    color: greenyellow;
+    box-sizing: border-box;
+  }
+
+  .content-course p {
+    font-size: 0.7rem;
+    margin: 0;
+    color: white;
+  }
+
+  /* .content .content-items {
+    gap: 90px;
+  } */
+
+  .contact-button .btn-contact {
+    white-space: nowrap;
+  }
+
+  .contact-button .btn-contact p,
+  .btn-export p {
+    font-size: 0.6rem;
+  }
+
+  .contact-button .btn-export {
+    white-space: nowrap;
+  }
+
+  .container .project-container{
+    flex-direction: column;
+  }
+
+  .project-items .project-item-image{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .project-item-title h2{
+    font-size: 2rem;
+  }
+
+  .btn-view{
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  /* .project-items .project-item-image img{
+    margin: 0 auto;
+    box-sizing: border-box;
+  } */
+
+  /* .skills-items{
+    flex-direction: column;
+  }
+
+  .skills-items .skills-image{
+    margin: 130px auto;
+    width: 80%;
+    height: 80px;
+    box-sizing: border-box;
+  }*/
+
+  .project-item-text{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  div.portfolio-image {
+    display: block;
+  }
+}
