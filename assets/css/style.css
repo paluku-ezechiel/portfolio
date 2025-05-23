@@ -195,9 +195,9 @@ section{
 }
 
 /* ************* FORM **************** */
-/* #form-container, form{
+#form-container{
   background-color: #F8F7FC;
-} */
+} 
 
 .form-row input{
   height: 40px;
@@ -209,6 +209,7 @@ section{
   box-sizing: border-box;
 }
 
+
 textarea{
   margin: 10px;
   outline: none;
@@ -217,11 +218,16 @@ textarea{
   font-size: 1rem;
 }
 
-form{
-  top: 140%;
-  left: 50%;
-  transform: translate(-50%);
+.email input, .numero input{
+  width: 470px;
 }
+
+
+
+.area textarea{
+  width: 450px;
+}
+
 
 .form-row button{
   height: 40px;
@@ -234,6 +240,12 @@ form{
   background-color:#4d30c4;
   color: white;
   font-weight: bold;
+  width: 30%;
+  border-radius: 5px;
+}
+
+form{
+  text-align: center;
 }
 
 
@@ -273,6 +285,19 @@ form{
 
   form{
     width: 95%;
+  }
+
+  .email input, .numero input{
+    width: 95%;
+    text-align: center;
+  }
+
+  .inline input{
+    width: 95%;
+  }
+  
+  .area textarea{
+    width: 90%;
   }
 }
 
@@ -320,7 +345,7 @@ form{
   }
 
   form{
-    width: 90%;
+    width: 95%;
   }
 
   form div:nth-child(1){
@@ -400,6 +425,19 @@ form{
     white-space: nowrap;
   }
 
+  .email input, .numero input{
+    width: 90%;
+    text-align: center;
+  }
+
+  .inline input{
+    width: 90%;
+  }
+  
+  .area textarea{
+    width: 84%;
+  }
+
   .container .project-container{
     flex-direction: column;
   }
@@ -441,4 +479,6 @@ form{
   div.portfolio-image {
     display: block;
   }
+
+
 }

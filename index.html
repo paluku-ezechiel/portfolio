@@ -118,7 +118,7 @@
     </section>
 
     <section id="form-container">
-      <div class="container relative">
+      <div class="container">
           <div class="form-title textAlign">
             <h1>Get in touch</h1>
           </div>
@@ -127,44 +127,40 @@
               J'aimerais avoir de vos nouvelles. Veuillez remplir ce formulaire
             </p>
           </div>
-          <form class="absolute">
-            <div class="form-row flex">
+          <form>
+            <div class="form-row inline">
               <input
               type="text"
               name="firstname"
               placeholder="enter your first name here"
-              class="flex-1"
               />
               <input
               type="text"
               name="lastname"
               placeholder="enteryour last name here"
-              class="flex-1"
               />
             </div>
-            <div class="form-row flex">
-              <input type="email" name="email" placeholder="enter email here" class="flex-1" />
+            <div class="form-row email">
+              <input type="email" name="email" placeholder="enter email here"/>
             </div>
-            <div class="form-row flex">
+            <div class="form-row numero">
               <input
                 type="text"
                 name="numero"
                 placeholder="enter your number here"
-                class="flex-1"
               />
             </div>
-            <div class="form-row flex">
+            <div class="form-row area">
               <textarea
               name="message"
               id="message"
-              cols="30"
-              rows="10"
+              cols="27"
+              rows="5"
               placeholder="your message here"
-              class="flex-1"
               ></textarea>
             </div>
-            <div class="form-row flex">
-              <button class="flex-1">Envoyer message</button>
+            <div class="form-row">
+              <button>Envoyer message</button>
             </div>
         </form>
       </div>
