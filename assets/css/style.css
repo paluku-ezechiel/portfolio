@@ -9,6 +9,10 @@ div.portfolio-image {
   overflow: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 div.portfolio-image img {
   width: 100%;
   height: 100%;
@@ -192,7 +196,7 @@ section {
 }
 
 /* ************* FORM **************** */
-#form-container {
+.form-container {
   background-color: #f8f7fc;
 }
 
@@ -385,6 +389,7 @@ footer .footer-image img {
 
   form {
     width: 95%;
+    text-align: center;
   }
 
   form div:nth-child(1) {
