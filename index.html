@@ -1,211 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Port folio</title>
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-container box flex aic gap-5 jcsb">
-          <div class="portfolio-image">
-              <img src="./assets/images/ezechiel.jpeg" alt="image de profile"/>
-          </div>
 
-          <nav>
-            <ul class="unlisted flex gap-20">
-              <li><a href="#home" class="active">Home</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#work">Works</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-          <!-- <div class="sign-up">sign up</div> -->
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezechiel Paluku | Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
-        <div class="content" id="home">
-          <div class="content-items flex jcsb">
-            <div class="content-item">
-              <div class="content-name">
-                <p>Hi, I'm Ezechiel</p>
-              </div>
-              <div class="content-title">
-                <p>Web developer</p>
-              </div>
-              <div class="content-course">
-                <p>Expert in HTML, CSS, Javascript</p>
-              </div>
-              <div class="contact-button flex gap-20 aic">
-                <div class="btn-contact">
-                  <p>Get in touch</p>
-                </div>
-                <div class="btn-export">
-                  <p>Explore me</p>
-                </div>
-              </div>
-            </div>
-            <div class="content-right">
-                <img src="./assets/images/ezechiel.jpeg" alt="profile" />
-            </div>
-          </div>
-        </div> 
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Ezechiel<span>.</span></h1>
       </div>
-    </header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#skills">Portfolio</a></li>
+          <li><a href="#projects">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
 
-    <section class="skills-section" id="portfolio">
-      <div class="container">
-        <div class="skills-container">
-          <div class="skills-title textAlign pt-60">
-            <h2>My Skills and tools</h2>
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="intro-text">Hi, I'm Ezechiel</p>
+          <h2>Web Developer</h2>
+          <p class="hero-description">Expert in HTML, CSS, Javascript</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn primary-btn">Get in touch</a>
+            <a href="#skills" class="btn secondary-btn">Explore me</a>
           </div>
-          <div class="skills-items flex jcse">
-            <div class="skills-image">
-              <img
-                src="./assets/images/Icones/html.png"
-                width="100%"
-                alt="image html"
-              />
-              <div class="skills-title textAlign">HTML</div>
-            </div>
-
-            <div class="skills-image">
-              <img
-                src="./assets/images/Icones/css.png"
-                width="100%"
-                alt="image html"
-              />
-              <div class="skills-title textAlign">CSS</div>
-            </div>
-            <div class="skills-image">
-              <img
-                src="./assets/images/Icones/javascript.png"
-                width="100%"
-                alt="image html"
-              />
-              <div class="skills-title textAlign">Javascript</div>
-            </div>
-          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/images/ezekiel.png" alt="Ezechiel Paluku" class="profile-img">
         </div>
       </div>
-    </section>
-    <section id="work">
-      <div class="container">
-        <div class="container-title">
-          <h1 class="textAlign">Projects</h1>
-        </div>
-        <div class="project-container flex jcc gap-50 aic">
-          <div class="project-items">
-            <div class="project-item-image">
-              <img
-                src="./assets/images/project.JPG"
-                alt="image du projet"
-              />
-            </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills and Tools</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
           </div>
-          <div class="project-items">
-            <div class="project-item-title">
-              <h2 class="textAlign">Web development</h2>
-            </div>
-            <div class="project-item-text">
-              responsive HTML, CSS web site development
-            </div>
-            <p class="btn-view">view details</p>
+          <h3>HTML</h3>
+          <p>Expert in creating semantic, accessible HTML markup for modern websites.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          </div>
+          <h3>CSS</h3>
+          <p>Advanced styling with CSS, including Flexbox, Grid, and animations.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript">
+          </div>
+          <h3>JavaScript</h3>
+          <p>Creating interactive and dynamic web experiences with vanilla JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Web Development Project">
+          </div>
+          <div class="project-info">
+            <h3>Web Development</h3>
+            <p>Responsive HTML, CSS website development with modern best practices</p>
+            <a href="#" class="btn details-btn">View Details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="E-commerce Project">
+          </div>
+          <div class="project-info">
+            <h3>E-commerce Platform</h3>
+            <p>Fully responsive e-commerce website with product filtering and cart functionality</p>
+            <a href="#" class="btn details-btn">View Details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Landing Page Project">
+          </div>
+          <div class="project-info">
+            <h3>Landing Page</h3>
+            <p>High-conversion landing page with animated sections and call-to-action elements</p>
+            <a href="#" class="btn details-btn">View Details</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="form-container" id="contact">
-      <div class="container form-id">
-          <div class="form-title textAlign">
-            <h1>Get in touch</h1>
-          </div>
-          <div class="form-text">
-            <p>
-              J'aimerais avoir de vos nouvelles. Veuillez remplir ce formulaire
-            </p>
-          </div>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <p>I'd love to hear from you. Please fill out this form.</p>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form">
           <form>
-            <div class="form-row inline">
-              <input
-              type="text"
-              name="firstname"
-              placeholder="enter your first name here"
-              />
-              <input
-              type="text"
-              name="lastname"
-              placeholder="enteryour last name here"
-              />
-            </div>
-            <div class="form-row email">
-              <input type="email" name="email" placeholder="enter email here"/>
-            </div>
-            <div class="form-row numero">
-              <input
-                type="text"
-                name="numero"
-                placeholder="enter your number here"
-              />
-            </div>
-            <div class="form-row area">
-              <textarea
-              name="message"
-              id="message"
-              cols="27"
-              rows="5"
-              placeholder="your message here"
-              ></textarea>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="first-name" placeholder="Enter your first name here">
+              </div>
+              <div class="form-group">
+                <input type="text" id="last-name" placeholder="Enter your last name here">
+              </div>
             </div>
             <div class="form-row">
-              <button>Envoyer message</button>
-            </div>
-        </form>
-      </div>
-    </section>
-
-    <section class="footer">
-        <div class="container">
-          <footer>
-            <div class="footer-image">
-              <img src="./assets/images/ezechiel.jpeg" alt="image de profile"/>
-            </div>
-            <div class="footer-name textAlign">
-              Ezechiel Paluku
-            </div>
-            <nav>
-              <ul class="unlisted-footer flex jcc gap-10">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#work">Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-            <div class="divider"></div>
-            <div class="icon-footer flex aic jcsa">
-              <div class="footer-left">
-                <p>All right reserved.&copy;2025EzechielPaluku</p>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Enter email here">
               </div>
-              <div class="icon flex gap-20">
-               <i class="fa-brands fa-facebook-f"></i>
-               <i class="fa-brands fa-twitter"></i>
-               <i class="fa-brands fa-linkedin-in"></i>
-               <i class="fa-brands fa-facebook-f"></i>
-              </div>
-              <div class="footer-right flex gap-20">
-                <p>Terms</p>
-                <p>Privacy</p>
-                <p>Cookies</p>
+              <div class="form-group">
+                <input type="tel" id="phone" placeholder="Enter your number here">
               </div>
             </div>
-          </footer>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your message here"></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+          </form>
         </div>
-    </section>
+        <div class="contact-info">
+          <div class="profile-card">
+            <img src="./assets/images/ezekiel.png" alt="Ezechiel Paluku" class="contact-profile-img">
+            <h3>Ezechiel Paluku</h3>
+            <p>Web Developer</p>
+            <div class="social-icons">
+              <a href="#" class="social-icon">
+                <div class="icon github"></div>
+              </a>
+              <a href="#" class="social-icon">
+                <div class="icon linkedin"></div>
+              </a>
+              <a href="#" class="social-icon">
+                <div class="icon twitter"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="./assets/js/function/function.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Ezechiel Paluku</h3>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Portfolio</a></li>
+            <li><a href="#projects">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-legal">
+          <p>All rights reserved. ©2025 Ezechiel Paluku</p>
+          <ul class="legal-links">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple JavaScript for mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('show');
+      this.classList.toggle('active');
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector('.nav-links').classList.remove('show');
+        document.querySelector('.menu-toggle').classList.remove('active');
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Active navigation link based on scroll position
+    window.addEventListener('scroll', function () {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.nav-links a');
+
+      let currentSection = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+          currentSection = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${currentSection}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>
